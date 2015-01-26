@@ -1,0 +1,63 @@
+#include <TMath.h>
+#include <TF1.h>
+#include <TRandom3.h>
+#include <string>
+#include <sstream>
+#include <iostream>
+#include <TFile.h>
+#include <TH1F.h>
+
+using namespace std;
+
+
+double theta(double* vars, double* pars) {
+
+  return TMath::ACos(120/(vars[0]*TMath::Sqrt(120*120-pars[0]*pars[0]))); //E = 120 GeV
+
+}
+
+    double R(double* vars, double* pars) {
+
+      return 2*1000*(-1/TMath::Tan(theta(vars,pars))+TMath::Sqrt(1/TMath::Tan(theta(vars,pars))*1/TMath::Tan(theta(vars,pars))+1)); //f = 1000
+
+}
+
+    double R_simple(double* vars, double* pars) {
+      return 1000*theta(vars,pars); // f = 1000
+}
+
+void indice() { //programma per invertire la funzione
+  TFile* out = new TFile("indice_fix_PI.root","RECREATE");
+  int kmax;
+  TRandom3 rndgen;
+  long double n1;
+  long double rR;
+  string str;
+
+  TH1F* index_dist = new TH1F("index_dist","Distribuzione dell'indice di rifrazione;(Indice - 1) x 10^4;Conteggi",200,3.2,3.4);
+  TH1F* index2_dist = new TH1F("index2_dist","Distribuzione dell'indice di rifrazione al quadrato;(Indice - 1) x 10^4;Conteggi",200,10,12);
+
+  cout << "Numero pseudoesperimenti? " << endl;
+  getline (cin,str);
+  stringstream(str) >> kmax;
+  
+  for (int k = 0; k < kmax; k++) {
+    TF1* diff = new TF1("diff",R,1.0001,1.0006,1);
+    diff->SetParameter(0,0.139); //mK = 0.493 GeV, mPi = 0.139 GeV
+  diff->SetTitle("Differenza tra R(n) e R_misurato;n;Differenza (cm)");
+  diff->SetNpx(10000);
+  rR = rndgen.Gaus(25.6919,0.0674463);
+  n1 = (diff->GetX(rR,1.0001,1.0006) - 1)*10000;
+  index_dist->Fill(n1);
+  index2_dist->Fill(n1*n1);
+  delete diff;
+  }
+
+  cout << "Mean: " << index_dist->GetMean() << endl;
+  cout << "RMS: " << index_dist->GetRMS() << endl;
+  cout << "Variance: " << TMath::Sqrt(index2_dist->GetMean() - index_dist->GetMean()*index_dist->GetMean()) << endl;
+  index_dist->Write();
+  index2_dist->Write();
+  out->Close();
+  
+}

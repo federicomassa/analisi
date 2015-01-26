@@ -102,7 +102,7 @@ void readfile() {
   radius1_dist->GetYaxis()->SetTitleOffset(1.4);
  TH1F* radius0_dist = new TH1F("radius0_dist","Distribuzione del raggio; Raggio(px); Conteggio",200,24.8,26.4);
   radius0_dist->GetYaxis()->SetTitleOffset(1.4);
-  TFile* out = new TFile("readfile_fix.root","RECREATE");
+  TFile* out = new TFile("readfile_fix_fitK.root","RECREATE");
   ifstream in("cerenkov.dat");
 
   cout << "Numero pseudoesperimenti? (0 = nulla) " << endl;
@@ -179,7 +179,7 @@ void readfile() {
     } //approssimazione gaussiana della binomiale
     rradius_dist->Fit(gausfit,"0QRS");
     entries_dist->Fill(entries);
-    integral = (TMath::Sqrt(8*TMath::ATan(1))*gausfit->GetParameter(0)*gausfit->GetParameter(2)/8E-3)/entries;
+    integral = gausfit->GetParameter(0)*gausfit->GetParameter(2)/(gausfit->GetParameter(0)*gausfit->GetParameter(2)+gausfit->GetParameter(3)*gausfit->GetParameter(5));
     integral_dist->Fill(integral);
     entries = 0;
     delete rradius_dist;

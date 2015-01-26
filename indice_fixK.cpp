@@ -27,7 +27,7 @@ double theta(double* vars, double* pars) {
 }
 
 void indice() { //programma per invertire la funzione
-  TFile* out = new TFile("indice.root","RECREATE");
+  TFile* out = new TFile("indice_fix_K.root","RECREATE");
   int kmax;
   TRandom3 rndgen;
   long double n1;
@@ -43,10 +43,10 @@ void indice() { //programma per invertire la funzione
   
   for (int k = 0; k < kmax; k++) {
     TF1* diff = new TF1("diff",R,1.0001,1.0006,1);
-    diff->SetParameter(0,0.139); //mK = 0.493 GeV, mPi = 0.139 GeV
+    diff->SetParameter(0,0.493); //mK = 0.493 GeV, mPi = 0.139 GeV
   diff->SetTitle("Differenza tra R(n) e R_misurato;n;Differenza (cm)");
   diff->SetNpx(10000);
-  rR = rndgen.Gaus(25.6909,0.063448);
+  rR = rndgen.Gaus(25.4128,0.070094);
   n1 = (diff->GetX(rR,1.0001,1.0006) - 1)*10000;
   index_dist->Fill(n1);
   index2_dist->Fill(n1*n1);

@@ -179,7 +179,7 @@ void readfile() {
     } //approssimazione gaussiana della binomiale
     rradius_dist->Fit(gausfit,"0QRS");
     entries_dist->Fill(entries);
-    integral = (TMath::Sqrt(8*TMath::ATan(1))*gausfit->GetParameter(0)*gausfit->GetParameter(2)/8E-3)/entries;
+    integral = gausfit->GetParameter(0)*gausfit->GetParameter(2)/(gausfit->GetParameter(0)*gausfit->GetParameter(2)+gausfit->GetParameter(3)*gausfit->GetParameter(5));
     integral_dist->Fill(integral);
     entries = 0;
     delete rradius_dist;
