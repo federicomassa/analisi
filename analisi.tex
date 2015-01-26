@@ -1,0 +1,115 @@
+\documentclass[8pt]{extarticle}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\renewcommand\refname{Referenze}
+\usepackage[utf8x]{inputenc}
+\usepackage{titlesec}
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage[document]{ragged2e}
+\titleformat{\section}{\huge\normalfont\bf}{\thesection.\hspace{5pt}}{5pt}{\vspace{1cm}}
+\titleformat*{\subsection}{\Large\bfseries}
+\usepackage[inner=3cm,outer=3cm]{geometry}
+
+\makeindex
+
+\begin{document}
+\justify
+\printindex
+\Large{A.a. 2013-2014}
+\vspace{10cm}
+\begin{center}
+\Huge\textbf{Analisi Dati}
+\end{center}
+
+\vspace{2cm}
+\begin{flushleft}
+\textit{Gruppo \textsc{1}} \\
+\medskip
+Federico \textsc{Massa} \\ 
+Marco \textsc{Montella}
+\end{flushleft}
+
+
+
+\newpage
+
+\begin{abstract}
+\justify
+ 
+
+\end{abstract}
+\bigskip
+
+\section{Introduzione} \label{sec:intro}
+Scopo dell'esperimento è discriminare usando i dati forniti d
+Effetto cerenkov, consiste nel rilascio di luce visibile o ultravioletta all'interno di un rivelatore quando esso viene attraversato da una
+particella la cui velocità è superiore alla velocità della luce nel mezzo.
+Viene pertanto rilasciato un cono di luce con vertice nella posizione della particella e apertura angolare funzione della velocità della particella
+e dell'indice di rifrazione del mezzo. SCRIVERE RELAZIONE
+Essendo il coseno di theta una funzione limitata, fissato un indice di rifrazione si avrà rilascio di fotoni solamente per una determinata regione di beta, il che rende possibile utilizzare i rivelatori cherenkov come rivelatori a soglia in misure di veto (forse inutile).
+I rivelatori cerenkov sono correlati di una superficie otticamente attiva sulla superficie interna (come nel caso di superkamiokande) o su una delle basi, come nel caso dell'esperimenti NA48/62 (vedere se è vero) e nell'apparato considerato nella presente analisi. Il rivelatore cerenkov
+che si prende in considerazione in questa analisi è dotato, sulla base più lontana relativamente al verso delle particelle del fascio, di uno specchio parabolico la cui lunghezza focale è pari alla lunghezza del rivelatore. Sulla base opposta, in corrispondenza del piano focale, si trova un rivelatore a pixel 50x50 di dimensioni 1cmx1cm. Lo specchio parabolico ha la proprietà di "focalizzare" fasci di luce paralleli su un punto del piano focale funzione dell'angolo formato dal fascio con l'asse ottico, sebbene solo quando questo angolo è zero la messa a fuoco risulta priva di aberrazione. Sulla base otticamente sensibile i pixel interessati dall'arrivo di uno o più fotoni formeranno dunque, a causa della simmetria sull'angolo azimutale, di un anello il cui raggio può essere messo in relazione con l'angolo di emissione dei fotoni, e di conseguenza con la velocità della particella. In un fascio monocromatico composto da particelle di diverso tipo questo meccanismo permette di identificare le particelle.
+
+\section{Apparato}
+L'apparato sperimentale simulato consiste di un rivelatore Cerenkov a gas di indice di rifrazione $n$ ignoto da determinarsi nell'analisi, di lunghezza 1000cm, pari alla lunghezza focale dello specchio parabolico posto sul fondo del recipiente contenente il gas. Il rivelatore a di fotoni Cerenkov posto sul piano focale dello specchio è un quadrato composto da 2500 pixel ciascuno di dimensioni 1cm x 1cm. \\
+\subsection{Formazione degli anelli Cerenkov}
+Al passaggio di una particella con $\beta > c/n$, si ha nel gas un'emissione di fotoni visibili o ultravioletti ad un angolo $\theta$ con la direzione del fascio per cui vale:
+\begin{equation} \label{eq:cerenkov}
+\cos{\theta}=\frac{1}{\beta n}
+\end{equation}
+Il fotone raggiunge lo specchio parabolico e viene riflesso producendo, a meno di inefficienze nella riflessione, nella trasmissione nel gas o nella rivelazione, un segnale in uno dei pixel. Essendoci una simmetria sull'angolo azimutale $\phi$, l'insieme di tutti i fotoni che possono essere emessi dalla particella a una distanza $d$ fissata dal vertice dello specchio forma una circonferenza sul piano focale.\\
+\'E possibile dimostrare che il raggio di tale circonferenza è indipendente dal punto di emissione $d$, e che pertanto tutti i fotoni emessi dalla particella nel suo percorso all'interno della camera a gas vengono messi a fuoco su una circonferenza il cui raggio dipende solamente dall'angolo Cerenkov e dalle caratteristiche dello specchio parabolico.\\
+Chiamando $\theta$ l'angolo Cerenkov, $d$ la distanza di emissione dal vertice della parabola, $f$ la distanza focale, $\delta$ l'angolo formato dalla tangente alla parabola nel punto di riflessione del fotone con un asse parallelo al piano focale e $x0$ la distanza del punto di riflessione dal vertice della parabola, il raggio $R$ dell'anello Cerenkov risulta:
+\begin{equation} \label{eq:raggio_theta}
+R \ = \ \frac{f+x_0 \cot{\theta}+x_0 \cot{(\theta-2\delta)}-d}{\cot{(\theta-2\delta)}}
+\end{equation}
+\begin{equation}
+x_0 \ = \frac{f}{2} \Bigg[-\cot{\theta}+\sqrt{\cot{\theta}^2+\frac{d}{f}}\ \Bigg] \ \ \ \ \ \ \ \tan{\delta}=\frac{2x_0}{f}
+\end{equation}
+La relazione \ref{eq:raggio_theta} è stata plottata in ROOT ad angolo fissato. Nella figura [FIGURA] è mostrato l'andamento del raggio con la distanza di emissione.\\
+La non costanza del raggio in funzione di d è dovuta al fatto che uno specchio o una lente parabolica è in grado di mettere a fuoco solamente raggi paralleli all'asse ottico. L'aberrazione sulle immagini provenienti da sorgenti fuori asse è nota come \textit{coma}.
+Ad ogni modo lo scarto relativo tra gli estremi di variabilità del raggio è dell'ordine di $10^{-4}$, ed è all'incertezza derivante dalla discretizzazione delle posizioni introdotta dai pixel.\\
+Le figure [figure 2 e 3] mostrano invece l'andamento del raggio in funzione contemporaneamente di $\theta$ e $d$. Tale andamento si mostra in ottima approssimazione lineare con l'angolo secondo un coefficiente di proporzionalità pari alla lunghezza focale. Nella figura [FIGURA!!!] è mostrato l'andamento con $\theta$ e $d$ della quantità: $R(\theta,d)-f\theta$.
+\subsection{Relazione tra raggio, massa e indice di rifrazione}
+La relazione (\ref{eq:raggio_theta}) può essere riformulata in funzione di massa della particella e indice di rifrazione sfruttando l'uguaglianza (\ref{eq:cerenkov}) e il fatto che $\beta^2=(1+\gamma^{-2})=(1+\frac{m^2}{E^2})$
+\\
+PROSEGUIRE FEDERICO
+\\
+\\
+\subsection{Segnale nello scintillatore}
+Ad una distanza di 9000 cm dallo specchio parabolico del rivelatore Cerenkov è posto uno scintillatore dalla forma di corona circolare, con $R_{min}=10\ cm$ e $R_{MAX}=100\ cm$, nel quale vengono rivelati i muoni provenienti da eventuali decadimenti delle particelle del fascio.
+L'energia di quest'ultimo, unitamente alle dimensioni dell'apparato, fa si tuttavia che i muoni del canale $\pi^+ \ \rightarrow \ \mu^+ \nu_\mu$ non siano rivelati nello scintillatore, passando sempre a una distanza dall'asse del fascio $r<R_{min}$. \\
+Infatti, noto l'angolo $\alpha$ con cui il muone viene emesso nel sistema di riferimento a riposo del pione, risulta per l'angolo $\alpha'$ nel sistema del laboratorio:
+\begin{equation}
+\tan{\alpha}=\frac{p_T}{p_L}
+\end{equation}
+\begin{equation}
+\tan{\alpha'}=\frac{p_T}{p_L'}=\frac{p\sin{\alpha}}{\gamma_{\pi}\big[p\cos{\alpha}+\beta_{\pi} (p^2+m_mu^2)^{1/2}\big]}
+\end{equation}
+\\
+L'andamento della funzione $\alpha'(\alpha)$ è mostrato in [FIGURA], e presenta un punto  di massimo per $	\alpha=105.523°$ $\rightarrow$ $\alpha'=0.0184°$.\\
+Un $\pi$ che decadesse all'interno del Cerenkov dopo aver prodotto segnale in esso produrrebbe pertanto un muone che giungerebbe allo scintillatore con una distanza dall'asse di al massimo $r=10000\ cm \cdot \theta (rad) \simeq 3.2 cm$.\\
+\\
+Gli eventi di $\pi$ saranno dunque caratterizzati dall'assenza di hits nello scintillatore. La proposizione inversa non è invece vera: essendo $\gamma_K c \tau_K \ \sim 900 \ m$, solo una frazione dei K decadrà nei 100 m coperti dall'apparato. Si considera inoltre che il branching ratio del canale di decadimento $K^+ \rightarrow \mu^+\nu_mu$ a cui è sensibile lo scintillatore è $BR_{\mu 2}=63.5\%$, e anche di questi decadimenti una frazione risulterà in muoni che attraversano il foro dello scintillatore, non producendo ugualmente segnale.
+\\
+\section{Metodo}
+Evento per evento sono forniti il numero di hit (0 o 1) registrati nello scintillatore, il numero di pixel della superficie sensibile del rivelatore Cerenkov interessati dall'arrivo di uno o più fotoni e l'identificativo di questi ultimi secondo uno schema a griglia.\\
+\subsection{Ricostruzione del raggio dell'anello Cerenkov}
+
+\subsection{Frazione di K nel fascio}
+\subsection{Intervallo di confidenza per l'identificazione dei K}
+\subsubsection{Probabilità di identificare un $\pi$ come un K}
+\subsubsection{Probabilità di non identificare un K}
+
+\section{Risultati}
+
+\section{Conclusioni}
+Cosa si può cambiare nell'apparato per migliorare l'identificazione? Indice di rifrazione?
+%\input{bibcompton.bib}
+
+
+\end{document}

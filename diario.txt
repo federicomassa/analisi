@@ -1,0 +1,8 @@
+Nello script readfile.cpp:
+
+provo a controllare che il numero di eventi sia sempre quello
+dichiarato nella seconda riga di ogni evento. 
+RISULTATO: verificato 
+
+MAX angolo mu per pi quando il mu decade a 105.523° = 0.0184° -> tan(0.0184°)*10000 = 3.2 cm -> NON VISTO dallo scintillatore 
+MAX angolo mu per K quando il mu decade a 155.8° = 0.524° -> tan(0.524°)*10000 = 91.458 cm -> VISTO, alcuni saranno persi
