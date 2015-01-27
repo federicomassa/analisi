@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.29)  27 JAN 2015 01:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.29)  27 JAN 2015 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**analisi2.tex
-(./analisi2.tex
+**analisi_definitivo.tex
+(./analisi_definitivo.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -279,12 +279,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks27
 )
 \@indexfile=\write3
-\openout3 = `analisi2.idx'.
+\openout3 = `analisi_definitivo.idx'.
 
 
-Writing index file analisi2.idx
-(./analisi2.aux)
-\openout1 = `analisi2.aux'.
+Writing index file analisi_definitivo.idx
+(./analisi_definitivo.aux)
+\openout1 = `analisi_definitivo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -398,158 +398,188 @@ LaTeX Info: Redefining \selectfont on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-No file analisi2.ind.
+No file analisi_definitivo.ind.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 52.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 48.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 48.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+Overfull \hbox (1.17456pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10.95 L'apparato sper-i-men-tale sim-u-lato con-siste di un riv-e-
+la-tore Cerenkov a gas di in-dice di rifrazione
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 75.
+
+
+LaTeX Warning: Reference `fig:tf1_ringdistance' on page 3 undefined on input li
+ne 75.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
+<tf1_ringdistance.pdf, id=16, 569.12625pt x 387.4475pt>
+File: tf1_ringdistance.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-[3]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 101.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 101.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
-Overfull \hbox (10.15785pt too wide) in paragraph at lines 109--110
-\OT1/cmr/m/n/10.95 dura, sp-ie-gata in [REF-ERENZA DAL DOC-U-MENTO DI GIU-DICI]
-, con-siste nell'identificazione
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
-
- []
-
+<use tf1_ringdistance.pdf>
+Package pdftex.def Info: tf1_ringdistance.pdf used on input line 79.
+(pdftex.def)             Requested size: 227.64647pt x 154.97624pt.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 122.
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 80.
+ <tf2_radius.pdf, id=17, 569.12625pt x 387.4475pt>
+File: tf2_radius.pdf Graphic file (type pdf)
+
+<use tf2_radius.pdf>
+Package pdftex.def Info: tf2_radius.pdf used on input line 90.
+(pdftex.def)             Requested size: 227.64647pt x 154.97624pt.
+ <tf2_radius_zoom.pdf, id=18, 569.12625pt x 387.4475pt>
+File: tf2_radius_zoom.pdf Graphic file (type pdf)
+
+<use tf2_radius_zoom.pdf>
+Package pdftex.def Info: tf2_radius_zoom.pdf used on input line 98.
+(pdftex.def)             Requested size: 227.64647pt x 154.97624pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<indiceK_definitivo.png, id=33, 869.2475pt x 569.12625pt>
+<tf2_deviazione.pdf, id=19, 569.12625pt x 312.16624pt>
+File: tf2_deviazione.pdf Graphic file (type pdf)
+
+<use tf2_deviazione.pdf>
+Package pdftex.def Info: tf2_deviazione.pdf used on input line 108.
+(pdftex.def)             Requested size: 227.64647pt x 124.86427pt.
+ [3] [4 <./tf1_ringdistance.pdf, page is rotated 90 degrees> <./tf2_radius.pdf,
+ page is rotated 90 degrees>] [5 <./tf2_radius_zoom.pdf, page is rotated 90 deg
+rees> <./tf2_deviazione.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 127.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 127.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
+
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+[9] <indiceK_definitivo.png, id=223, 869.2475pt x 569.12625pt>
 File: indiceK_definitivo.png Graphic file (type png)
 
 <use indiceK_definitivo.png>
-Package pdftex.def Info: indiceK_definitivo.png used on input line 145.
+Package pdftex.def Info: indiceK_definitivo.png used on input line 209.
 (pdftex.def)             Requested size: 347.69284pt x 227.64647pt.
 
-<indicePI_definitivo.png, id=34, 876.27374pt x 569.12625pt>
+<indicePI_definitivo.png, id=224, 876.27374pt x 569.12625pt>
 File: indicePI_definitivo.png Graphic file (type png)
 
 <use indicePI_definitivo.png>
-Package pdftex.def Info: indicePI_definitivo.png used on input line 153.
+Package pdftex.def Info: indicePI_definitivo.png used on input line 217.
 (pdftex.def)             Requested size: 350.50328pt x 227.64647pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
-[6] [7 <./indiceK_definitivo.png> <./indicePI_definitivo.png>] [8]
-(./analisi2.aux) ) 
+[10 <./indiceK_definitivo.png>] (./bibanalisi.bib) [11 <./indicePI_definitivo.p
+ng>] (./analisi_definitivo.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4811 strings out of 493109
- 69835 string characters out of 6135009
- 143269 words of memory out of 5000000
- 8152 multiletter control sequences out of 15000+600000
+ 4827 strings out of 493109
+ 70242 string characters out of 6135009
+ 146344 words of memory out of 5000000
+ 8163 multiletter control sequences out of 15000+600000
  15317 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,34p,1076b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on analisi2.pdf (8 pages, 206506 bytes).
+ 38i,17n,33p,1287b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on analisi_definitivo.pdf (11 pages, 315909 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 283 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

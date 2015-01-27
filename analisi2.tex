@@ -86,12 +86,7 @@ La relazione \ref{eq:raggio_theta} è stata plottata in ROOT ad angolo fissato. 
 La non costanza del raggio in funzione di d è dovuta al fatto che uno specchio o una lente parabolica è in grado di mettere a fuoco solamente raggi paralleli all'asse ottico. L'aberrazione sulle immagini provenienti da sorgenti fuori asse è nota come \textit{coma}.
 Ad ogni modo lo scarto relativo tra gli estremi di variabilità del raggio è dell'ordine di $10^{-4}$, ed è all'incertezza derivante dalla discretizzazione delle posizioni introdotta dai pixel.\\
 Le figure [figure 2 e 3] mostrano invece l'andamento del raggio in funzione contemporaneamente di $\theta$ e $d$. Tale andamento si mostra in ottima approssimazione lineare con l'angolo secondo un coefficiente di proporzionalità pari alla lunghezza focale. Nella figura [FIGURA!!!] è mostrato l'andamento con $\theta$ e $d$ della quantità: $R(\theta,d)-f\theta$.
-\subsection{Relazione tra raggio, massa e indice di rifrazione}
-La relazione (\ref{eq:raggio_theta}) può essere riformulata in funzione di massa della particella e indice di rifrazione sfruttando l'uguaglianza (\ref{eq:cerenkov}) e il fatto che $\beta^2=(1+\gamma^{-2})=(1+\frac{m^2}{E^2})$
-\\
-PROSEGUIRE FEDERICO
-\\
-\\
+
 \subsection{Segnale nello scintillatore}
 Ad una distanza di 9000 cm dallo specchio parabolico del rivelatore Cerenkov è posto uno scintillatore dalla forma di corona circolare, con $R_{min}=10\ cm$ e $R_{MAX}=100\ cm$, nel quale vengono rivelati i muoni provenienti da eventuali decadimenti delle particelle del fascio.
 L'energia di quest'ultimo, unitamente alle dimensioni dell'apparato, fa si tuttavia che i muoni del canale $\pi^+ \ \rightarrow \ \mu^+ \nu_\mu$ non siano rivelati nello scintillatore, passando sempre a una distanza dall'asse del fascio $r<R_{min}$. \\
@@ -117,7 +112,9 @@ S=\sum_i g(u_i, v_i, R)^2 \ = \ \sum_i \Big[ (u_i-u_c)^2+(v_i-v_c)^2 - R^2 \Big]
 \end{equation}
 \\
 Dove $u_i, v_i$ rappresentano le coordinate di ciascun pixel di interesse in un sistema cartesiano centrato di volta in volta nella media dei pixel attivi $( \ u_i=x_i-\sum_j x_j /N\ )$. La minimizzazione viene effettuata rispetto ai parametri del fit $u_c, v_c, R$ coordinate del centro del cerchio e raggio di quest'ultimo.\\
-I risultati dei fit ottenuti nei $50\ 000$ eventi sono mostrato nella gifura sottostante. [FIGURA ISTOGRAMMI]
+I risultati dei fit ottenuti nei $50\ 000$ eventi sono mostrato nella figura sottostante. [FIGURA ISTOGRAMMI]
+A causa della risoluzione sperimentale, ad ogni particella non corrisponde un raggio ben definito, ma una distribuzione la cui deviazione standard potrà essere utilizzata per stimare l'errore.
+
 \subsection{Frazione di K nel fascio}
 Nell'assunto che i raggi degli anelli generati dal passaggio delle due particelle siano distribuiti secondo una Normale con media $\mu_{K,\pi}=\theta_{K,\pi}f$ e varianza determinata dalla risoluzione sperimentale, l'istogramma dei raggi negli eventi disponibili è stato fittato con la somma di due distribuzioni gaussiane.\\
 \\
@@ -126,7 +123,8 @@ A partire dai parametri ottenuti ottenuti dal fit il numero di mesoni $K$ e $\pi
 L'incertezza sulla frazione di K nel fascio è stata calcolata con il metodo degli pseudo esperimenti. Il contenuto di ciascun bin dell'istogramma è distribuito secondo una Binomiale con probabilità di successo della prova stimata in $\hat{\mu}_i = N_{i}/N$, con $N_i$ contenuto dell'i-esimo bin e N numero totale di eventi. A partire da tale distribuzione il contenuto dei bin è stato fatto variare casualmente, ottenendo così una serie di pseudo distribuzioni di raggi Cerenkov, a loro volta fittate ciascuna con una somma di due gaussiane.\\
 La frazione dei mesoni $K$ è stata ottenuta come valor medio della distribuzione di $f_K$ nei vari pseudo esperimenti, e si è utilizzata la deviazione standard di tale distribuzione come incertezza sul valore sperimentale di $f_K$
 
-\subsection{Indice di rifrazione del gas}
+\subsection{Misura dell'indice di rifrazione}
+La relazione (\eqref{eq:raggio_theta}) può essere riformulata in funzione di massa della particella e indice di rifrazione sfruttando l'uguaglianza (\eqref{eq:cerenkov}) e il fatto che $\beta^2=(1+\gamma^{-2})=(1+\frac{m^2}{E^2})$. In questo modo si ottiene una relazione che invertita permette di misurare l'indice di rifrazione in funzione del raggio misurato. Essendo quest'ultimo noto con una data incertezza, anche l'indice di rifrazione avrà una sua incertezza. Quest'ultima è stata calcolata misurando il valore dell'indice di rifrazione al variare del raggio secondo la distribuzione misurata. L'indice di rifrazione può essere calcolato sia a partire dai dati relativi ai mesoni $K$, sia da quelli relativi ai mesoni $\pi$. Essendo il mezzo attraversato dalle particelle lo stesso, si è controllato, per verifica, che i risultati ottenuti nei due modi fossero compatibili.
 
 \subsection{Intervallo di confidenza per l'identificazione dei K}
 A causa dell'elevata energia del fascio rispetto alle masse delle due specie di particelle, i $\beta$ dei $\pi$ e dei $K$ sono molto simili, ragion per cui ci si attende un intervallo di raggi per cui esiste una probabilità non trascurabile, date le rispettive distribuzioni, di avere un evento sia di $\pi$ che di $K$.\\
@@ -138,10 +136,40 @@ L'estremo inferiore dell'intervallo di confidenza è posto a $\bar{R_K}-d\sigma_
 \subsubsection{Probabilità di non identificare un K}
 
 \section{Risultati}
-$n-1=(3.314+-0.017)*10^-4 usando il K$
-$n-1=(3.307+-0.016)*10^-5 usando il pi$
+
+\subsection{Indice di rifrazione}
+Le fig. \ref{fig:indiceK} e \ref{fig:indicePI} riportano le distribuzioni dell'indice di rifrazione ottenute tenendo conto delle distribuzioni dei raggi. Risulta: \\
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{indiceK_definitivo}
+\caption{Distribuzione dell'indice di rifrazione ottenuto utilizzando la distribuzione dei raggi associati al passaggio di un mesone $K$.}
+\label{fig:indiceK}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{indicePI_definitivo}
+\caption{Distribuzione dell'indice di rifrazione ottenuto utilizzando la distribuzione dei raggi associati al passaggio di un mesone $\pi$.}
+\label{fig:indicePI}
+\end{center}
+\end{figure}
+
+I risultati sono quindi perfettamente compatibili: \\
+\begin{equation}
+n_K -1 = (3.31 \pm 0.02) \cdot 10^{-4}
+\nonumber
+\end{equation}
+
+\begin{equation}
+n_{\pi} -1 = (3.31 \pm 0.02) \cdot 10^{-4}
+\nonumber
+\end{equation}
+
 \section{Conclusioni}
 Cosa si può cambiare nell'apparato per migliorare l'identificazione? Indice di rifrazione?
+
 %\input{bibcompton.bib}
 
 
