@@ -242,17 +242,60 @@ Si è mostrato nella sezione (\ref{sub:scint}) come i muoni prodotto del decadim
 \end{center}
 \end{figure}
 
-A partire dalla distribuzione dei raggi dei K che producono segnale nello scintillatore, e tenendo conto che la probabilità di questi ultimi di decadere e di produrre segnale nello scintillatore è la medesima per ogni K, è possibile, mediante un fit, estrarre i parametri di media e varianza dalla distribuzione e utilizzare questi ultimi come parametri fissati per il fit della distribuzione complessiva dei raggi Cerenkov, aumentando così i gradi di libertà del fit.
-[TABELLA]
-\\
+A partire dalla distribuzione dei raggi dei K che producono segnale nello scintillatore, e tenendo conto che la probabilità di questi ultimi di decadere e di produrre segnale nello scintillatore è la medesima per ogni K, è possibile, mediante un fit, estrarre i parametri di media e varianza dalla distribuzione e utilizzare questi ultimi come parametri fissati per il fit della distribuzione complessiva dei raggi Cerenkov, aumentando così i gradi di libertà del fit. \\
+
 Coerentemente con le previsioni, la distribuzione dei raggi di tutti gli eventi registrati nel rivelatore Cerenkov è una somma di due distribuzioni a campana parzialmente sovrapposte. \'E possibile eseguire un fit utilizzando come funzione di prova la somma di due gaussiane, ricavare le frazioni relative dei due tipi di particelle integrando le singole gaussiane con i parametri stimati dal fit, normalizzando poi sul numero totale di eventi.\\
-I risultati del fit e gli integrali delle singole distribuzioni ricostruite sono mostrati nelle tabelle:
-[TABELLE]
+I risultati del fit e gli integrali delle singole distribuzioni ricostruite sono mostrati nella fig. \ref{fig:bigauss_fit} e nella seguente tabella\footnote{*: valori calcolati dal fit della distribuzione dei soli raggi associati ad una traccia nello scintillatore. \\
+**: valore calcolato dividendo l'area della gaussiana del $K$ per la somma delle aree delle due gaussiane. \\
+***: valore calcolato dividendo l'area della gaussiana del $K$ associata ad una traccia nello scintillatore per l'area della gaussiana del $K$ trovata nella distribuzione dei raggi.} :
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{radius_dist_fitDEFINITIVO}
+\caption{Risultato del fit della distribuzione sperimentale dei raggi.}
+\label{fig:bigauss_fit}
+\end{center}
+\end{figure}
+
+\begin{tabular}{|c|c|}
+\hline 
+$\mathbf{Ampiezza_K}$ & 1580 \\ 
+\hline 
+$\mathbf{Media_K}$ * & 25.4128 \\ 
+\hline 
+$\mathbf{\sigma_K}$ * & 0.0701 \\ 
+\hline 
+$\mathbf{Ampiezza_{\pi}}$ & 715 \\ 
+\hline 
+$\mathbf{Media_{\pi}}$ & 25.6919 \\ 
+\hline 
+$\mathbf{\sigma_{\pi}}$ & 0.0674 \\ 
+\hline 
+$\mathbf{Frazione_K^{**}}$ & 0.697 \\ 
+\hline 
+$\mathbf{Frazione_{K,S=1}^{***}}$ & 0.625 \\ 
+\hline 
+\end{tabular} 
+
 \subsubsection{Incertezza su $f_K$}
 Sono stati effettuati $100\ 000$ pseudo esperimenti di misura della frazione dei mesoni K del fascio, facendo variare il contenuto di ciascun bin dell'istogramma ricostruito dei raggi nel rivelatore Cerenkov secondo la rispettiva distribuzione Binomiale, come mostrato nella sezione (\ref{eq:cerenkov}).\\
-La distribuzione della frazione di K $f_K$ ottenuta nel corso di ciascuno pseudo esperimento è mostrata nella [FIGURAAAAA]. \\
-La larghezza della distribuzione di $f_K$, assunta Normale e fittata di conseguenza, viene utilizzata come incertezza sulla determinazione sperimentale di $f_K$.
-[MAGARI TABELLA]
+La distribuzione della frazione di K $f_K$ ottenuta nel corso di ciascuno pseudo esperimento è mostrata nella \ref{fig:frazK}. \\
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{frazioneK_definitivo_fixfit}
+\caption{Distribuzione della frazione di K generata facendo variare l'istogramma misurato secondo una distribuzione binomiale.}
+\end{center}
+\end{figure}
+
+La larghezza della distribuzione di $f_K$, assunta Normale e fittata di conseguenza, viene utilizzata come incertezza sulla determinazione sperimentale di $f_K$. Il risultato è quindi: \\
+
+\begin{equation}
+f_K = 69.7 \pm 0.2 \%
+\nonumber
+\end{equation}
+
+
 \subsection{Indice di rifrazione}
 Le fig. \ref{fig:indiceK} e \ref{fig:indicePI} riportano le distribuzioni dell'indice di rifrazione ottenute tenendo conto delle distribuzioni dei raggi. Risulta: \\
 
@@ -284,9 +327,30 @@ n_{\pi} -1 = (3.31 \pm 0.02) \cdot 10^{-4}
 \end{equation}
 
 \subsection{Intervallo di confidenza}
-L'andamento in funzione dell'estremo superiore dell'intervallo di confidenza delle due tipologie di errore illustrate nelle sezioni \ref{subsub:nidK} e \ref{subsub:mis} è rappresentato nelle figure sottostanti nei tre diversi casi trattati:
-[FIGURE CON CAPTION]
-\\
+L'andamento in funzione dell'estremo superiore dell'intervallo di confidenza delle due tipologie di errore illustrate nelle sezioni \ref{subsub:nidK} e \ref{subsub:mis} è rappresentato nelle figure \ref{fig:non_vs_mis1},\ref{fig:non_vs_mis2} e \ref{fig:non_vs_mis3}  nei tre diversi casi trattati. \\
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{non_vs_mis1DEFINITIVO}
+\caption{Caso 1: grafico della probabilità di errata identificazione (rosso) e di non identificazione (verde) in un intervallo compreso tra i raggi medi del $\pi$ e del $K$.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{non_vs_mis2DEFINITIVO}
+\caption{Caso 2: grafico della probabilità di errata identificazione (rosso) e di non identificazione (verde) in un intervallo compreso tra i raggi medi del $\pi$ e del $K$.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{non_vs_mis3DEFINITIVO}
+\caption{Caso 3: grafico della probabilità di errata identificazione (rosso) e di non identificazione (verde) in un intervallo compreso tra i raggi medi del $\pi$ e del $K$.}
+\end{center}
+\end{figure}
+
+
 In ciascuna di essere starà allo sperimentatore determinare il migliore valore di $R_{max}$ relativamente alle esigenze sperimentali contingenti.
 
 \section{Conclusioni}

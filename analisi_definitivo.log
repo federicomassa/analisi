@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.29)  27 JAN 2015 02:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.29)  27 JAN 2015 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,40 +523,198 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
-[9] <indiceK_definitivo.png, id=223, 869.2475pt x 569.12625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+<pixnum_dist.png, id=220, 1054.94125pt x 569.12625pt>
+File: pixnum_dist.png Graphic file (type png)
+ <use pixnum_dist.png>
+Package pdftex.def Info: pixnum_dist.png used on input line 200.
+(pdftex.def)             Requested size: 421.96902pt x 227.64647pt.
+
+
+LaTeX Warning: Reference `fig:centrox_dist' on page 9 undefined on input line 2
+08.
+
+
+LaTeX Warning: Reference `fig:centroy_dist' on page 9 undefined on input line 2
+08.
+
+
+LaTeX Warning: Reference `fig:radius_dist' on page 9 undefined on input line 20
+8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+
+ []
+
+<centrox_dist.png, id=221, 1054.94125pt x 569.12625pt>
+File: centrox_dist.png Graphic file (type png)
+ <use centrox_dist.png>
+Package pdftex.def Info: centrox_dist.png used on input line 212.
+(pdftex.def)             Requested size: 421.96902pt x 227.64647pt.
+
+<centroy_dist.png, id=222, 1054.94125pt x 569.12625pt>
+File: centroy_dist.png Graphic file (type png)
+ <use centroy_dist.png>
+Package pdftex.def Info: centroy_dist.png used on input line 220.
+(pdftex.def)             Requested size: 421.96902pt x 227.64647pt.
+
+<radius_dist.png, id=223, 1054.94125pt x 569.12625pt>
+File: radius_dist.png Graphic file (type png)
+ <use radius_dist.png>
+Package pdftex.def Info: radius_dist.png used on input line 228.
+(pdftex.def)             Requested size: 421.96902pt x 227.64647pt.
+
+
+LaTeX Warning: Reference `fig:radius1_dist' on page 9 undefined on input line 2
+35.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+<radius1_dist.png, id=224, 1054.94125pt x 569.12625pt>
+File: radius1_dist.png Graphic file (type png)
+ <use radius1_dist.png>
+Package pdftex.def Info: radius1_dist.png used on input line 239.
+(pdftex.def)             Requested size: 421.96902pt x 227.64647pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+[9] [10 <./pixnum_dist.png> <./centrox_dist.png>] [11 <./centroy_dist.png> <./r
+adius_dist.png>]
+<radius_dist_fitDEFINITIVO.png, id=234, 698.61pt x 475.7775pt>
+File: radius_dist_fitDEFINITIVO.png Graphic file (type png)
+
+<use radius_dist_fitDEFINITIVO.png>
+Package pdftex.def Info: radius_dist_fitDEFINITIVO.png used on input line 254.
+(pdftex.def)             Requested size: 279.43904pt x 190.30762pt.
+
+
+LaTeX Warning: Reference `fig:frazK' on page 12 undefined on input line 282.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
+
+ []
+
+[12 <./radius1_dist.png>]
+<frazioneK_definitivo_fixfit.png, id=239, 810.02625pt x 569.12625pt>
+File: frazioneK_definitivo_fixfit.png Graphic file (type png)
+
+<use frazioneK_definitivo_fixfit.png>
+Package pdftex.def Info: frazioneK_definitivo_fixfit.png used on input line 286
+.
+(pdftex.def)             Requested size: 324.00475pt x 227.64647pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+<indiceK_definitivo.png, id=240, 869.2475pt x 569.12625pt>
 File: indiceK_definitivo.png Graphic file (type png)
 
 <use indiceK_definitivo.png>
-Package pdftex.def Info: indiceK_definitivo.png used on input line 209.
+Package pdftex.def Info: indiceK_definitivo.png used on input line 304.
 (pdftex.def)             Requested size: 347.69284pt x 227.64647pt.
 
-<indicePI_definitivo.png, id=224, 876.27374pt x 569.12625pt>
+<indicePI_definitivo.png, id=241, 876.27374pt x 569.12625pt>
 File: indicePI_definitivo.png Graphic file (type png)
 
 <use indicePI_definitivo.png>
-Package pdftex.def Info: indicePI_definitivo.png used on input line 217.
+Package pdftex.def Info: indicePI_definitivo.png used on input line 312.
 (pdftex.def)             Requested size: 350.50328pt x 227.64647pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
-[10 <./indiceK_definitivo.png>] (./bibanalisi.bib) [11 <./indicePI_definitivo.p
-ng>] (./analisi_definitivo.aux)
+
+LaTeX Warning: Reference `fig:non_vs_mis1' on page 13 undefined on input line 3
+30.
+
+
+LaTeX Warning: Reference `fig:non_vs_mis2' on page 13 undefined on input line 3
+30.
+
+
+LaTeX Warning: Reference `fig:non_vs_mis3' on page 13 undefined on input line 3
+30.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[13 <./radius_dist_fitDEFINITIVO.png>] [14 <./frazioneK_definitivo_fixfit.png> 
+<./indiceK_definitivo.png>]
+<non_vs_mis1DEFINITIVO.png, id=249, 1317.92375pt x 720.6925pt>
+File: non_vs_mis1DEFINITIVO.png Graphic file (type png)
+
+<use non_vs_mis1DEFINITIVO.png>
+Package pdftex.def Info: non_vs_mis1DEFINITIVO.png used on input line 334.
+(pdftex.def)             Requested size: 527.16017pt x 288.2719pt.
+
+Overfull \hbox (83.5817pt too wide) in paragraph at lines 334--335
+ [] 
+ []
+
+<non_vs_mis2DEFINITIVO.png, id=250, 1317.92375pt x 720.6925pt>
+File: non_vs_mis2DEFINITIVO.png Graphic file (type png)
+
+<use non_vs_mis2DEFINITIVO.png>
+Package pdftex.def Info: non_vs_mis2DEFINITIVO.png used on input line 341.
+(pdftex.def)             Requested size: 527.16017pt x 288.2719pt.
+
+Overfull \hbox (83.5817pt too wide) in paragraph at lines 341--342
+ [] 
+ []
+
+<non_vs_mis3DEFINITIVO.png, id=251, 1317.92375pt x 720.6925pt>
+File: non_vs_mis3DEFINITIVO.png Graphic file (type png)
+
+<use non_vs_mis3DEFINITIVO.png>
+Package pdftex.def Info: non_vs_mis3DEFINITIVO.png used on input line 348.
+(pdftex.def)             Requested size: 527.16017pt x 288.2719pt.
+
+Overfull \hbox (83.5817pt too wide) in paragraph at lines 348--349
+ [] 
+ []
+
+[15 <./indicePI_definitivo.png>] [16 <./non_vs_mis1DEFINITIVO.png>] [17 <./non_
+vs_mis2DEFINITIVO.png>] [18 <./non_vs_mis3DEFINITIVO.png>] (./bibanalisi.bib)
+[19] (./analisi_definitivo.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4827 strings out of 493109
- 70242 string characters out of 6135009
- 146344 words of memory out of 5000000
- 8163 multiletter control sequences out of 15000+600000
+ 4891 strings out of 493109
+ 71719 string characters out of 6135009
+ 146401 words of memory out of 5000000
+ 8217 multiletter control sequences out of 15000+600000
  15317 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,17n,33p,1287b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -570,16 +728,17 @@ r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
 local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on analisi_definitivo.pdf (11 pages, 315909 bytes).
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on analisi_definitivo.pdf (19 pages, 473927 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
+ 323 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

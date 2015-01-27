@@ -147,7 +147,7 @@ void readfile() {
   gausfit->FixParameter(2,0.070094);
   // TF1* gausfit = new TF1("gaus_fit","gaus(0)",24.8,25.5);
   // gausfit->SetParameters(1600,25.4,0.1);
-  radius_dist->Fit(gausfit,"0SR");
+  radius_dist->Fit(gausfit,"0SRMEI");
   gausfit->SetRange(24.8,26.4);
   radius_dist->Draw();
   cout << "Integrale" << gausfit->Integral(24.8,26.4)/(8E-3) << endl;
